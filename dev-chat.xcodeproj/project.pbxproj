@@ -11,6 +11,7 @@
 		B01D6E2C1E8ECB4300326A9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B01D6E2B1E8ECB4300326A9E /* GoogleService-Info.plist */; };
 		B01D6E2E1E8ED85200326A9E /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */; };
 		B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */; };
+		B01D6E321E8EF7DB00326A9E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E311E8EF7DB00326A9E /* LoginVC.swift */; };
 		B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95221E8EA2B900510B26 /* AppDelegate.swift */; };
 		B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95241E8EA2B900510B26 /* CameraVC.swift */; };
 		B0BD95281E8EA2B900510B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BD95261E8EA2B900510B26 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		B01D6E2B1E8ECB4300326A9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		B01D6E311E8EF7DB00326A9E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B0BD951F1E8EA2B900510B26 /* dev-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD95221E8EA2B900510B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BD95241E8EA2B900510B26 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				B0BD953A1E8EA99000510B26 /* AAPLCameraViewController.h */,
 				B0BD953B1E8EA99000510B26 /* AAPLCameraViewController.m */,
 				B0BD95241E8EA2B900510B26 /* CameraVC.swift */,
+				B01D6E311E8EF7DB00326A9E /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */,
 				B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */,
+				B01D6E321E8EF7DB00326A9E /* LoginVC.swift in Sources */,
 				B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */,
 				B01D6E2E1E8ED85200326A9E /* RoundTextField.swift in Sources */,
 				B0BD953C1E8EA99000510B26 /* AAPLPreviewView.m in Sources */,
