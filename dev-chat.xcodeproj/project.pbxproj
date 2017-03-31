@@ -12,6 +12,7 @@
 		B01D6E2E1E8ED85200326A9E /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */; };
 		B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */; };
 		B01D6E321E8EF7DB00326A9E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E311E8EF7DB00326A9E /* LoginVC.swift */; };
+		B01D6E351E8F1A4000326A9E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E341E8F1A4000326A9E /* AuthService.swift */; };
 		B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95221E8EA2B900510B26 /* AppDelegate.swift */; };
 		B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95241E8EA2B900510B26 /* CameraVC.swift */; };
 		B0BD95281E8EA2B900510B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BD95261E8EA2B900510B26 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B01D6E311E8EF7DB00326A9E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B01D6E341E8F1A4000326A9E /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B0BD951F1E8EA2B900510B26 /* dev-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD95221E8EA2B900510B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BD95241E8EA2B900510B26 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 			name = Protocols;
 			sourceTree = "<group>";
 		};
+		B01D6E331E8F1A1E00326A9E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B01D6E341E8F1A4000326A9E /* AuthService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		B0BD95161E8EA2B900510B26 = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +103,11 @@
 		B0BD95211E8EA2B900510B26 /* dev-chat */ = {
 			isa = PBXGroup;
 			children = (
+				B01D6E331E8F1A1E00326A9E /* Services */,
+				B01D6E271E8EBD2000326A9E /* Protocols */,
 				B0BD95361E8EA30200510B26 /* Model */,
 				B0BD95351E8EA2F900510B26 /* View */,
 				B0BD95341E8EA2EF00510B26 /* Controller */,
-				B01D6E271E8EBD2000326A9E /* Protocols */,
 				B0BD95221E8EA2B900510B26 /* AppDelegate.swift */,
 				B0BD95261E8EA2B900510B26 /* Main.storyboard */,
 				B0BD95291E8EA2B900510B26 /* Assets.xcassets */,
@@ -279,6 +290,7 @@
 				B01D6E2E1E8ED85200326A9E /* RoundTextField.swift in Sources */,
 				B0BD953C1E8EA99000510B26 /* AAPLPreviewView.m in Sources */,
 				B0BD953D1E8EA99000510B26 /* AAPLCameraViewController.m in Sources */,
+				B01D6E351E8F1A4000326A9E /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
