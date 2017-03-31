@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B01D6E2A1E8EBE8E00326A9E /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
 		B0BD951F1E8EA2B900510B26 /* dev-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD95221E8EA2B900510B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BD95241E8EA2B900510B26 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -42,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B01D6E271E8EBD2000326A9E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B01D6E2A1E8EBE8E00326A9E /* AAPLCameraVCDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		B0BD95161E8EA2B900510B26 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +73,7 @@
 				B0BD95361E8EA30200510B26 /* Model */,
 				B0BD95351E8EA2F900510B26 /* View */,
 				B0BD95341E8EA2EF00510B26 /* Controller */,
+				B01D6E271E8EBD2000326A9E /* Protocols */,
 				B0BD95221E8EA2B900510B26 /* AppDelegate.swift */,
 				B0BD95261E8EA2B900510B26 /* Main.storyboard */,
 				B0BD95291E8EA2B900510B26 /* Assets.xcassets */,
@@ -346,6 +356,7 @@
 				B0BD95331E8EA2B900510B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
