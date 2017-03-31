@@ -8,20 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95221E8EA2B900510B26 /* AppDelegate.swift */; };
-		B0BD95251E8EA2B900510B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95241E8EA2B900510B26 /* ViewController.swift */; };
+		B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95241E8EA2B900510B26 /* CameraVC.swift */; };
 		B0BD95281E8EA2B900510B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BD95261E8EA2B900510B26 /* Main.storyboard */; };
 		B0BD952A1E8EA2B900510B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BD95291E8EA2B900510B26 /* Assets.xcassets */; };
 		B0BD952D1E8EA2B900510B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BD952B1E8EA2B900510B26 /* LaunchScreen.storyboard */; };
+		B0BD953C1E8EA99000510B26 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95391E8EA99000510B26 /* AAPLPreviewView.m */; };
+		B0BD953D1E8EA99000510B26 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BD953B1E8EA99000510B26 /* AAPLCameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0BD951F1E8EA2B900510B26 /* dev-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD95221E8EA2B900510B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0BD95241E8EA2B900510B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0BD95241E8EA2B900510B26 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		B0BD95271E8EA2B900510B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0BD95291E8EA2B900510B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0BD952C1E8EA2B900510B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0BD952E1E8EA2B900510B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BD95371E8EA99000510B26 /* dev-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dev-chat-Bridging-Header.h"; sourceTree = "<group>"; };
+		B0BD95381E8EA99000510B26 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
+		B0BD95391E8EA99000510B26 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
+		B0BD953A1E8EA99000510B26 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
+		B0BD953B1E8EA99000510B26 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +61,43 @@
 		B0BD95211E8EA2B900510B26 /* dev-chat */ = {
 			isa = PBXGroup;
 			children = (
+				B0BD95361E8EA30200510B26 /* Model */,
+				B0BD95351E8EA2F900510B26 /* View */,
+				B0BD95341E8EA2EF00510B26 /* Controller */,
 				B0BD95221E8EA2B900510B26 /* AppDelegate.swift */,
-				B0BD95241E8EA2B900510B26 /* ViewController.swift */,
 				B0BD95261E8EA2B900510B26 /* Main.storyboard */,
 				B0BD95291E8EA2B900510B26 /* Assets.xcassets */,
 				B0BD952B1E8EA2B900510B26 /* LaunchScreen.storyboard */,
 				B0BD952E1E8EA2B900510B26 /* Info.plist */,
+				B0BD95371E8EA99000510B26 /* dev-chat-Bridging-Header.h */,
 			);
 			path = "dev-chat";
+			sourceTree = "<group>";
+		};
+		B0BD95341E8EA2EF00510B26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0BD953A1E8EA99000510B26 /* AAPLCameraViewController.h */,
+				B0BD953B1E8EA99000510B26 /* AAPLCameraViewController.m */,
+				B0BD95241E8EA2B900510B26 /* CameraVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B0BD95351E8EA2F900510B26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0BD95381E8EA99000510B26 /* AAPLPreviewView.h */,
+				B0BD95391E8EA99000510B26 /* AAPLPreviewView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B0BD95361E8EA30200510B26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +133,7 @@
 					B0BD951E1E8EA2B900510B26 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 775A96F2SV;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BD95251E8EA2B900510B26 /* ViewController.swift in Sources */,
+				B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */,
 				B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */,
+				B0BD953C1E8EA99000510B26 /* AAPLPreviewView.m in Sources */,
+				B0BD953D1E8EA99000510B26 /* AAPLCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +300,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 775A96F2SV;
 				INFOPLIST_FILE = "dev-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shinDev.dev-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dev-chat/dev-chat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +316,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 775A96F2SV;
 				INFOPLIST_FILE = "dev-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shinDev.dev-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dev-chat/dev-chat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
