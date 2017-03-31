@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8EE98F577F0A7240C4001A9F /* Pods_dev_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88081B2512D0CEE957ACE004 /* Pods_dev_chat.framework */; };
 		B01D6E2C1E8ECB4300326A9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B01D6E2B1E8ECB4300326A9E /* GoogleService-Info.plist */; };
+		B01D6E2E1E8ED85200326A9E /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */; };
+		B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */; };
 		B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95221E8EA2B900510B26 /* AppDelegate.swift */; };
 		B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95241E8EA2B900510B26 /* CameraVC.swift */; };
 		B0BD95281E8EA2B900510B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BD95261E8EA2B900510B26 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 		88081B2512D0CEE957ACE004 /* Pods_dev_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dev_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01D6E2A1E8EBE8E00326A9E /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
 		B01D6E2B1E8ECB4300326A9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B0BD951F1E8EA2B900510B26 /* dev-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD95221E8EA2B900510B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BD95241E8EA2B900510B26 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 			children = (
 				B0BD95381E8EA99000510B26 /* AAPLPreviewView.h */,
 				B0BD95391E8EA99000510B26 /* AAPLPreviewView.m */,
+				B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */,
+				B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */,
+				B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */,
 				B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */,
+				B01D6E2E1E8ED85200326A9E /* RoundTextField.swift in Sources */,
 				B0BD953C1E8EA99000510B26 /* AAPLPreviewView.m in Sources */,
 				B0BD953D1E8EA99000510B26 /* AAPLCameraViewController.m in Sources */,
 			);
