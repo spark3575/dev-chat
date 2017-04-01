@@ -14,6 +14,9 @@
 		B01D6E321E8EF7DB00326A9E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E311E8EF7DB00326A9E /* LoginVC.swift */; };
 		B01D6E351E8F1A4000326A9E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E341E8F1A4000326A9E /* AuthService.swift */; };
 		B01D6E371E8F2D0C00326A9E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E361E8F2D0C00326A9E /* DataService.swift */; };
+		B01D6E391E8F313400326A9E /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E381E8F313400326A9E /* UsersVC.swift */; };
+		B01D6E3B1E8F323400326A9E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E3A1E8F323400326A9E /* UserCell.swift */; };
+		B087FB081E8F364C0094BC45 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B087FB071E8F364C0094BC45 /* User.swift */; };
 		B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95221E8EA2B900510B26 /* AppDelegate.swift */; };
 		B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95241E8EA2B900510B26 /* CameraVC.swift */; };
 		B0BD95281E8EA2B900510B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BD95261E8EA2B900510B26 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 		B01D6E311E8EF7DB00326A9E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B01D6E341E8F1A4000326A9E /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B01D6E361E8F2D0C00326A9E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B01D6E381E8F313400326A9E /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		B01D6E3A1E8F323400326A9E /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		B087FB071E8F364C0094BC45 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B0BD951F1E8EA2B900510B26 /* dev-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD95221E8EA2B900510B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BD95241E8EA2B900510B26 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 				B0BD953B1E8EA99000510B26 /* AAPLCameraViewController.m */,
 				B0BD95241E8EA2B900510B26 /* CameraVC.swift */,
 				B01D6E311E8EF7DB00326A9E /* LoginVC.swift */,
+				B01D6E381E8F313400326A9E /* UsersVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 				B0BD95391E8EA99000510B26 /* AAPLPreviewView.m */,
 				B01D6E2D1E8ED85200326A9E /* RoundTextField.swift */,
 				B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */,
+				B01D6E3A1E8F323400326A9E /* UserCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 		B0BD95361E8EA30200510B26 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B087FB071E8F364C0094BC45 /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -291,9 +300,12 @@
 				B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */,
 				B01D6E321E8EF7DB00326A9E /* LoginVC.swift in Sources */,
 				B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */,
+				B01D6E391E8F313400326A9E /* UsersVC.swift in Sources */,
 				B01D6E2E1E8ED85200326A9E /* RoundTextField.swift in Sources */,
 				B0BD953C1E8EA99000510B26 /* AAPLPreviewView.m in Sources */,
+				B087FB081E8F364C0094BC45 /* User.swift in Sources */,
 				B0BD953D1E8EA99000510B26 /* AAPLCameraViewController.m in Sources */,
+				B01D6E3B1E8F323400326A9E /* UserCell.swift in Sources */,
 				B01D6E351E8F1A4000326A9E /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
