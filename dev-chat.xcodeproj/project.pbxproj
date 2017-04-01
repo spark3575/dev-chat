@@ -13,6 +13,7 @@
 		B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */; };
 		B01D6E321E8EF7DB00326A9E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E311E8EF7DB00326A9E /* LoginVC.swift */; };
 		B01D6E351E8F1A4000326A9E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E341E8F1A4000326A9E /* AuthService.swift */; };
+		B01D6E371E8F2D0C00326A9E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D6E361E8F2D0C00326A9E /* DataService.swift */; };
 		B0BD95231E8EA2B900510B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95221E8EA2B900510B26 /* AppDelegate.swift */; };
 		B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD95241E8EA2B900510B26 /* CameraVC.swift */; };
 		B0BD95281E8EA2B900510B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BD95261E8EA2B900510B26 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		B01D6E2F1E8EF21400326A9E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B01D6E311E8EF7DB00326A9E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B01D6E341E8F1A4000326A9E /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B01D6E361E8F2D0C00326A9E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B0BD951F1E8EA2B900510B26 /* dev-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD95221E8EA2B900510B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BD95241E8EA2B900510B26 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B01D6E341E8F1A4000326A9E /* AuthService.swift */,
+				B01D6E361E8F2D0C00326A9E /* DataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01D6E371E8F2D0C00326A9E /* DataService.swift in Sources */,
 				B0BD95251E8EA2B900510B26 /* CameraVC.swift in Sources */,
 				B01D6E301E8EF21400326A9E /* RoundedButton.swift in Sources */,
 				B01D6E321E8EF7DB00326A9E /* LoginVC.swift in Sources */,
